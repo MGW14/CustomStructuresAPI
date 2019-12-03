@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="io.netty.handler.codec.http2.Http2Connection.Listener"/>
+<fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
+<fullyQualifiedTypeName name="work.mgnet.customstructuresapi.listener.ChunkListener"/>
+<fullyQualifiedTypeName name="org.bukkit.craftbukkit.libs.org.apache.commons.lang3.builder.EqualsExclude"/>
+<fullyQualifiedTypeName name="org.bukkit.event.world.ChunkEvent"/>
+<fullyQualifiedTypeName name="org.bukkit.event.world.ChunkLoadEvent"/>
+<fullyQualifiedTypeName name="org.bukkit.block.Block"/>
+<fullyQualifiedTypeName name="org.bukkit.World"/>
+<fullyQualifiedTypeName name="org.bukkit.Chunk"/>
+<fullyQualifiedTypeName name="work.mgnet.customstructuresapi.manager.StructureManager"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="org.bukkit.Material"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="work.mgnet.customstructuresapi.todo.LootRandomizer"/>
+<fullyQualifiedTypeName name="org.bukkit.block.Chest"/>
+<fullyQualifiedTypeName name="work.mgnet.customstructuresapi.manager.BlockLocation"/>
+<fullyQualifiedTypeName name="org.bukkit.inventory.ItemStack"/>
+<fullyQualifiedTypeName name="org.bukkit.event.Listener"/>
+<fullyQualifiedTypeName name="org.bukkit.event.player.PlayerCommandPreprocessEvent"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+<fullyQualifiedTypeName name="java.lang.Class"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+<fullyQualifiedTypeName name="work.mgnet.customstructuresapi.listener.CommandListener"/>
+<fullyQualifiedTypeName name="work.mgnet.customstructuresapi.manager.Structure"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.bukkit.Location"/>
+<fullyQualifiedTypeName name="org.bukkit.event.EventHandler"/>
+<fullyQualifiedTypeName name="org.bukkit.event.server.TabCompleteEvent"/>
+<fullyQualifiedTypeName name="work.mgnet.customstructuresapi.CustomStructuresAPI"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="work.mgnet.customstructuresapi.todo.StructureSpawner"/>
+<fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+</qualifiedTypeNameHistroy>
