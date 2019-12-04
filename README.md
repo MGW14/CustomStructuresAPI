@@ -14,13 +14,13 @@ Tested Versions:
 API usage:
 
 How to add a Structure:
-[CODE]
+<code>
 	CustomStructuresAPI.structureManager.addStructure(structure);
-[/CODE]
+</code>
 
 How to make an Instance of BlockLocation. (IMPORTANT! USE RELATIV POSITIONING!!!)
-[CODE]
+<code>
 	BlockLocation b = new BlockLocation(-5, 1, 5, Material.SPONGE);
-[/CODE]
+</code>
 
 Take a look at the Javadoc
