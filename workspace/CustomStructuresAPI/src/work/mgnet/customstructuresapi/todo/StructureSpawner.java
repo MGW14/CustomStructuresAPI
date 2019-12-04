@@ -36,33 +36,33 @@ public class StructureSpawner {
 			bl.getLoc(bb.getLocation()).getBlock().setType(bl.getMat()); // Get Block from Offset and Change Material of it
 			if (bl.getMat() == Material.CHEST) { // If Item is Chest
 				int loot = 0; // Slots filled in Chest
-				while (loot < 5) { // If less than 5 Items are in the Chest rerun the code
+				while (loot < 10) { // If less than 5 Items are in the Chest rerun the code
 					for (ItemStack commonLoot : structure.getCommonLoot()) { // Get Loot
-						if (LootRandomizer.spawnLoot(3)) { // Get Random Number
+						if (true) { // Get Random Number
 							((Chest) bl.getLoc(bb.getLocation()).getBlock().getState()).getInventory().setItem(new Random().nextInt(27), commonLoot); // Place item in Chest
 							loot++; // Raise Number
 						}
 					}
 					for (ItemStack uncommonLoot : structure.getUncommonLoot()) { // Same
-						if (LootRandomizer.spawnLoot(10)) {
+						if (LootRandomizer.spawnLoot(4)) {
 							((Chest) bl.getLoc(bb.getLocation()).getBlock().getState()).getInventory().setItem(new Random().nextInt(27), uncommonLoot);
 							loot++;
 						}
 					}
 					for (ItemStack rareLoot : structure.getRareLoot()) { // Same
-						if (LootRandomizer.spawnLoot(50)) {
+						if (LootRandomizer.spawnLoot(6)) {
 							((Chest) bl.getLoc(bb.getLocation()).getBlock().getState()).getInventory().setItem(new Random().nextInt(27), rareLoot);
 							loot++;
 						}
 					}
 					for (ItemStack epicLoot : structure.getEpicLoot()) { // Same
-						if (LootRandomizer.spawnLoot(100)) {
+						if (LootRandomizer.spawnLoot(14)) {
 							((Chest) bl.getLoc(bb.getLocation()).getBlock().getState()).getInventory().setItem(new Random().nextInt(27), epicLoot);
 							loot++;
 						}
 					}
 					for (ItemStack legendaryLoot : structure.getLegendaryLoot()) { // Same
-						if (LootRandomizer.spawnLoot(200)) {
+						if (LootRandomizer.spawnLoot(50)) {
 							((Chest) bl.getLoc(bb.getLocation()).getBlock().getState()).getInventory().setItem(new Random().nextInt(27), legendaryLoot);
 							loot++;
 						}
